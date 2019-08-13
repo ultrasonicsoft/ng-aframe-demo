@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { AFrame } from "aframe";
+// import * as TrackballControls from "trackballcontrols";
 
 declare var AFRAME: AFrame;
-
+declare var TrackballControls: any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,7 +13,7 @@ export class AppComponent {
   title = 'ng-aframe-demo';
 
   ngOnInit() {
-    debugger;
+    console.log(TrackballControls);
     console.log(AFRAME.THREE);
   }
 }
