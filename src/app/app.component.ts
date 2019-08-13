@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { AFrame } from "aframe";
+
+declare var AFRAME: AFrame;
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-aframe-demo';
+
+  ngOnInit() {
+    debugger;
+    console.log(AFRAME.THREE);
+  }
 }
