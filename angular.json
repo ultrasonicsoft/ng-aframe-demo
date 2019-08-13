@@ -26,9 +26,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "libs/trackballcontrols.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {

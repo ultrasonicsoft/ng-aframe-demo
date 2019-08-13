@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { AFrame } from "aframe";
-// import * as TrackballControls from "trackballcontrols";
+import { TrackballControls } from 'three/examples/jsm/controls/TrackballControls';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 declare var AFRAME: AFrame;
-declare var TrackballControls: any;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
